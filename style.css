@@ -1,0 +1,99 @@
+html,body {
+    font-family:Raleway;
+}
+
+/* body*/
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.flexBetween {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decorationNone {
+    text-decoration: None;
+}
+
+.backGray {
+    background-color: gray;
+}
+.backBlue {
+    background-color: blue;
+}
+
+.bordureNone {
+    border:none;
+}
+
+/*header*/
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+nav a {
+    font-size: 12px;
+    padding-bottom: 3px;  
+}
+
+.colorLiens13 {
+    color: blue;
+}
+
+.colorLien2 {
+    color: black;
+}
+
+.bordureNav {
+    border-top: 1px solid blue;
+}
+
+.bordureNav23 {
+    border-top: 1px solid transparent;
+}
+
+.marglogo {
+    margin-bottom: 7px;
+}
+
+.sizeLien {
+    width: 130px;
+    height: 90px;
+}
+
+/*Section recherche et filtre */
+.iconSize {
+    height: 50px;
+    width: 50px;
+}
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+}
+
+.padSearch {
+    padding-left: 15px;
+}
+.buttonSearch {
+    width: 130px;
+    height: 50px;
+    color:white;
+}
