@@ -1,5 +1,8 @@
 html,body {
     font-family:Raleway;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 /* body*/
@@ -65,8 +68,13 @@ html,body {
 }
 /*header*/
 
-
-
+h1 {
+    font-size: 1.4em; 
+    margin-bottom: 4px; 
+}
+header p {
+    margin-top: 4px;
+}
 .colorLiens13 {
     color: #0065fc;
 }
@@ -76,7 +84,7 @@ html,body {
 }
 
 .bordureNav {
-    border-top: 1px solid blue;
+    border-top: 1px solid #0065fc;
 }
 
 .bordureNav23 {
@@ -85,6 +93,7 @@ html,body {
 
 .marglogo {
     margin-bottom: 7px;
+    margin-left: -9px;
 }
 
 .sizeLien {
@@ -105,7 +114,7 @@ html,body {
     height: 30px;
     padding:10px 10px;
     background-color: #f2f2f2;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
     
@@ -120,12 +129,16 @@ html,body {
 
 .recherche{
     height: 50px;
-    width: 230px;
-    font-size: 18px;
+    width: 240px;
+    font-size: 16px;
     padding: 10px;
-    border-radius: 18px;
+    border-radius: 1px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: transparent;
     color: black;
     font-weight:bold;
+    
 }
 
 
@@ -152,8 +165,8 @@ html,body {
 .filter {
     display: flex;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .IconTextFilter {
@@ -171,12 +184,16 @@ html,body {
     background-color: lightblue;
 }
 .IconFilter {
-    padding: 15px 15px;
-    margin-left: -2px;
+    padding: 15px 15px 15px 15px;
+    margin-left:-3px;
     border-radius: 50%;
     color: #0065fc;
-    background-color: #d9d9d9;
+    background-color:#DEEBFF;
     cursor: pointer;
+    height:20px;
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .TextFilter {
@@ -190,6 +207,7 @@ html,body {
 .info {
     display: flex;
     align-items: center;
+    margin-bottom: 15px
 }
 
 .InfoIcon {
@@ -200,7 +218,7 @@ html,body {
     color: #0065fc;
     border: 2px solid #d9d9d9;
     margin-right: 5px;
-    padding: 5px;
+    padding: 3px;
 }
 
 .TextInfo {
@@ -215,14 +233,16 @@ html,body {
 
 .sizeLodging {
     flex:2;
-    height: 650px;
-    border-radius:10px;
+    height: 700px;
+    border-radius: 20px;
+    margin-right: 20px;
 }
 
 .sizePopular {
     flex:1;
-    height:650px;
-    border-radius: 10px;
+    height:700px;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 .imgLodging1 {
@@ -288,102 +308,117 @@ html,body {
 .blockLodging {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;  
 }
 .block1 {
-    margin-bottom: 10px;
+    margin-top: 25px;
 
 }
 .block2 {
-    margin-top:10px;
+    margin-top:30px;
 }
 .cubeLodging {
     width: 30%;
-    height:auto;
+    height:200px;
     background-color:white;
     padding:1%;
     border-radius:20px;
 }
 
 .cubeLodgingDetails {
-    width: 90%;;
+    width: 90%;
+}
+.StarLodging{
+    font-size: 13px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
-.hotel {
-    width: 30%;
-    width: calc(33.3% - 10px);
-    background: white;
-    border-radius: 20px;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 0 5px 20px 5px;
-    box-shadow: 0 5px 16px #0000002e;
-}
-.hotel img {
-    background-color: white;
-    border-radius: 15px 15px 0px 0px;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-  }
 .Prix {
     margin: 5px 10px;
     font-weight: 100;
+    font-size: 16px;
 }
 
 .sousTitle{
-    margin: 3px 10px;
+    margin: 5px 10px;
+    padding-top: 4px;
+    font-size: 18px;
 }
-  .star {
-    margin: 3px 10px;
-  }
+
 
 .afficherPlus {
     color: black;
+    text-decoration:none;
+    font-size: 1.3em;
     padding-left: 8px;
+    display: block;
+    margin-top: 60px;
+  
 }
 .blockPopular{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.blockPopular12 {
+    margin-bottom: 20px;
+}
+.spaceTitle {
+    margin-right : 20px;
 }
 
+.LogoChartLine{
+    font-size: 14px;
+}
 .hotelPopular {
-    width: 100%;
+    width: 94%;
     background: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 1% 0 1% 1%;
     box-sizing: border-box;
-    margin: 0px 0px 30px 0px;
-    height: 145px;
+    margin: 0px 0px 25px 0px;
+    height: auto;
     box-shadow: 0 5px 16px #0000002e;
 }
 
 .imgPopular {
-    background-color: white;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    float: left;
-    width: 45%;
-    height: 92%;
+    background-size: cover;
+    background-position: center;
+    width: 44%;
+    height: 170px;
     border-radius: 15px 0 0 15px;
-    margin: 2px 10px 2px 0px;
-    object-fit: cover;
   }
 
+.imgPopular3 {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 170px;
+    border-radius: 15px 0 0 15px;
+  }
+.cubePopularDetails {
+    width: 60%;
+    padding-left: 3%;
+}
 .starPopular {
-    margin: 30px;
+    font-size: 14px;
+    margin: 9px;
+
   }
 
 .sousTitlePopular {
-    margin: 7px;
+    font-size: 18px;
+    margin-bottom: 2px;
   }
   
 .PrixPopular {
-    margin: 0px;
-    font-weight: 100;
+    margin-top: 4px;
+    margin-bottom: 28px;
   }
 /*Activites*/
 .Activities{
@@ -393,7 +428,7 @@ html,body {
 
 .BlocActivities{
     width: 100%;
-    height: 600px;
+    height: 520px;
 
 }
 
@@ -402,7 +437,7 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 530px;
+    height: 450px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -428,7 +463,7 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -437,7 +472,7 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 150px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 .cubeActivities2356{
@@ -448,7 +483,7 @@ html,body {
 
 .BlocActivities2356 {
     width: 23%;
-    height: 600px;
+    height: 520px;
 
 }
 
@@ -457,7 +492,7 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 530px;
+    height: 450px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -466,7 +501,7 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 200px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -475,61 +510,140 @@ html,body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 200px;
+    height: 180px;
     border-radius: 15px 15px 0 0;
 }
 
 /* FOOTER*/
-
-footer 
-{
-    width: 100%;
+footer {
     background-color: #f2f2f2;
+    margin:  0px -40px -40px -40px ;
 }
-.footercontent 
-{
-    max-width: 1350px;
-    margin: auto;
+
+.blockFooter {
     display: flex;
+    justify-content: space-between;
 }
-.footercontent div 
-{
-    margin-right: 230px;
-    padding-bottom: 30px;
+
+.blockAboutFooter {
+    margin-left:40px;   
 }
-footer h3 
-{
-    padding: 45px 0 10px 0;
+
+.blockLodgingFooter {
+    margin-left: -80px;
 }
-footer ul 
-{
-    list-style: none;
-    padding: 0;
+
+.blockAssistanceFooter {
+    margin-right: 370px;
 }
-footer ul li 
-{
-    font-size: 1.06rem;
-    padding: 10px 0;
+
+.listFooter {
+    list-style-type: none;
+    margin-left: -40px;
 }
-footer ul li a 
-{
+.linkFooter {
     text-decoration: none;
     color: black;
 }
-footer ul li a:hover 
-{
-    color: #0065fc;
-}
-h3 
-{
-    font-size: 1.06rem;
-    font-weight: bold;
-}
 
-
+.spaceBetweenLink {
+    margin-bottom: 12px;
+}
 /*responsive tablette */
-@media screen and (max-width:1295px) {
+@media screen and (max-width:1024px) {
     .sizeLiens {
         margin-left: 35%;
     }
+
+    h1 {
+        font-size: medium;
+    }
+
+    .cubeLodgingDetails {
+        min-height: 100px;
+        width: 100%;
+    }
+    .cubeLodging {
+        height: 230px;
+        padding-bottom: 20px;
+        box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%)
+    }
+    .sizeLodging {
+        min-height: auto;
+        padding: 15px;
+    }
+    .TitleTab {
+        margin-left: 5px;
+    }
+    .spaceTitle {
+        margin-right: 70px;
+    }
+    .hotelPopular {
+        width: 88%;
+    }
+
+    .imgPopular {
+        height: 200px;
+    }
+    .sizePopular {
+        min-height: auto;
+        
+    }
+
+    .afficherPlus {
+        margin-top: 30px;
+    }
+
+    .Activities {
+        margin-top: 0;
+    }
+
+    .BlocActivities {     
+        height: auto;
+    }
+
+    .blockLodgingFooter {
+        margin-left:150px;
+    }
+
+    .blockAssistanceFooter {
+        margin-left: 120px;
+    }
 }
+
+@media screen and (max-width:990px) {
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .IconTextFilter {
+        margin-bottom: 20px;
+    }
+
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .blockPopular {
+        flex:none;
+        width: 90%;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .blockLodging {
+        flex: none;
+        width: 100%;
+        margin-right: -20px;
+        margin-top: 50px;
+        margin-left: -20px;
+        background: none ;
+    }
+    
+    .imgPopular3 {
+        height: 190px;
+    }
+
+}
+

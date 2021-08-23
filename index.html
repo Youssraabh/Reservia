@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel=stylesheet href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c08d5778c.js" crossorigin="anonymous"></script>
 
 </head>
@@ -28,15 +28,15 @@
         </nav>
            
         <h1 class="textBold">Trouver votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en plein nature</p>
+        <p>En plein centre ville ou en pleine nature</p>
     </header>
 
 
     <section>
         <div class="bordureSearch">
             <div class="iconMap"><i class="fas fa-map-marker-alt"></i></div>
-            <div><input class="recherche bordureNone" type="search" name="q" value="Marseille, France"></div>
-            <button class="buttonSearch"> Rechercher</button>
+            <div><input class="recherche" type="search" name="q" value="Marseille, France"></div>
+            <button class="buttonSearch bordureNone"> Rechercher</button>
         </div>
         <div class="filter">
             <div class="titleFilter"><h2>Filtres</h2></div>
@@ -76,17 +76,19 @@
     </section>
     
     <section id="hebergements" class="flexAround">
-        <div class=" sizeLodging backGray blockLodging">
+        <div class="sizeLodging backGray blockLodging">
             <h2>Hébergements à Marseille</h2>
             <div>
-                <div class="block1 flexBetween">
-                    <div class="cubeLodging">
+                <div class=" flexBetween">
+                    <div class="cubeLodging ">
                         <div class="imgLodging1"></div>
                         <div class="cubeLodgingDetails">
-                            <h3>Auberge la Cannebière</h3>
-                            <p>Nuit à partir de <b>25€</b></p>
+                            <p class="sousTitle">
+                                <strong>Auberge la Cannebière</strong> <br/>
+                            </p>
+                            <p class="Prix">Nuit à partir de <strong>25€</strong></p>
                         </div>
-                        <span class="star">
+                        <span class="StarLodging">
                             <div>
                                 <i class="fas fa-star colorBlue"></i>
                                 <i class="fas fa-star colorBlue"></i>
@@ -99,31 +101,36 @@
                     <div class="cubeLodging">
                         <div class="imgLodging2"></div>
                         <div class="cubeLodgingDetails">
-                            <h3>Hôtel du port</h3>
-                            <p>Nuit à partir de <b>52€</b></p>
+                            <p class="sousTitle">
+                                <strong>Hôtel du port</strong> <br/>
+                            </p>
+                            <p class="Prix">Nuit à partir de 52<strong>€</strong></p>
                         </div>
-                        <span class="star">
+                        <span class="StarLodging">
                             <div>
-                                <i class="fas fa-star fa-xs colorBlue"></i>
-                                <i class="fas fa-star fa-xs colorBlue"></i>
-                                <i class="fas fa-star fa-xs colorBlue"></i>
-                                <i class="fas fa-star fa-xs colorBlue"></i>
-                                <i class="fas fa-star fa-xs colorBlue"></i>
+                                <i class="fas fa-star colorBlue"></i>
+                                <i class="fas fa-star colorBlue"></i>
+                                <i class="fas fa-star colorBlue"></i>
+                                <i class="fas fa-star colorBlue"></i>
+                                <i class="fas fa-star colorBlue"></i>
                             </div>
                         </span>
                     </div>
                     <div class="cubeLodging">
                         <div class="imgLodging3"></div>
                         <div class="cubeLodgingDetails">
-                            <h3>Hôtel Les mouettes</h3>
-                            <p>Nuit à partir de <b>76€</b></p>
-                        <span class="star">
+                            <p class="sousTitle">
+                                <strong>Hôtel Les mouettes</strong> <br/>
+                            </p>
+                            <p class="Prix">Nuit à partir de 76<strong>€</strong></p>
+                        </div>
+                        <span class="StarLodging">
                             <div>
                                 <i class="fas fa-star colorBlue"></i>
                                 <i class="fas fa-star colorBlue"></i>
                                 <i class="fas fa-star colorBlue"></i>
                                 <i class="fas fa-star colorBlue"></i>
-                                <i class="fas fa-star fa-xs stargrey colorGray"></i>
+                                <i class="fas fa-star colorBlue"></i>     
                             </div>
                         </span>
                     </div>
@@ -133,10 +140,12 @@
                 <div class="cubeLodging">
                     <div class="imgLodging4"></div>
                     <div class="cubeLodgingDetails">
-                        <h3>Hôtel de la mer</h3>
-                        <p>Nuit à partir de <b>46€</b></p>
+                        <p class="sousTitle">
+                            <strong>Hôtel de la mer</strong> <br/>
+                        </p>
+                        <p class="Prix">Nuit à partir de 46<strong>€</strong></p>
                     </div>
-                    <span class="star">
+                    <span class="StarLodging">
                         <div>
                             <i class="fas fa-star colorBlue"></i>
                             <i class="fas fa-star colorBlue"></i>
@@ -149,10 +158,12 @@
                 <div class="cubeLodging">
                     <div class="imgLodging5"></div>
                     <div class="cubeLodgingDetails">
-                        <h3>Auberge Le Panier</h3>
-                        <p>Nuit à partir de <b>23€</b></p>
+                        <p class="sousTitle">
+                            <strong>Auberges Le Panier</strong> <br/>
+                        </p>
+                        <p class="Prix">Nuit à partir de <strong>23€</strong></p>
                     </div>
-                    <span class="star">
+                    <span class="StarLodging">
                         <div>
                             <i class="fas fa-star colorBlue"></i>
                             <i class="fas fa-star colorBlue"></i>
@@ -165,10 +176,12 @@
                 <div class="cubeLodging">
                     <div class="imgLodging6"></div>
                     <div class="cubeLodgingDetails">
-                        <h3>Hôtel chez Amina</h3>
-                        <p>Nuit à partir de <b>96€</b></p>
+                        <p class="sousTitle">
+                            <strong>Hôtel chez Amina</strong> <br/>
+                        </p>
+                        <p class="Prix">Nuit à partir de 96<strong>€</strong></p>
                     </div>
-                    <span class="star">
+                    <span class="StarLodging">
                         <div>
                             <i class="fas fa-star colorBlue"></i>
                             <i class="fas fa-star colorBlue"></i>
@@ -179,57 +192,69 @@
                     </span>
                 </div>
             </div>
-            <a href=# class="afficherPlus">Afficher plus</a>
+            <a href=# class="afficherPlus textBold">Afficher plus</a>
         </div>
     </div>
 
     <div class="sizePopular blockPopular backGray">
-        <div class="flexBetween">
-            <h2 class="textBold">Les plus populaires</h2>
-            <div><i class="fas fa-chart-line fa-2x"></i></div>
+        <div class="spaceTitle flexBetween">
+            <h2 class="textBold TitleTab">Les plus populaires</h2>
+            <div class="LogoChartLine"><i class="fas fa-chart-line fa-2x"></i></div>
         </div>
         <div>
-            <div class="hotelPopular">
+            <div class=" flexCentre hotelPopular blockPopular12">
                 <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="imgPopular"/>
-                <div class="sousTitlePopular"><h4>Hôtel Le soleil du matin</h4></div>
-                <div class="PrixPopular"><p>Nuit à partir de 128<b>€</b></p></div>
-                <span class="starPopular">
-                    <div>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>     
-                    </div>
-                </span>
+                <div class="cubePopularDetails">
+                    <p class="sousTitlePopular">
+                        <strong>Hôtel le soleil du<br/> matin</strong> 
+                    </p>
+                    <p class="PrixPopular">Nuit à partir de 128 <strong>€</strong></p>
+                    <span class="starPopular">
+                        <div>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>     
+                        </div>
+                    </span>
+                </div>
             </div>
-            <div class="hotelPopular">
+            <div class=" flexCentre hotelPopular blockPopular12">
                 <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imgPopular"/>
-                <div class="sousTitlePopular"><h4>Au coeur de l'eau Chambres d'hôtes</h4></div>
-                <div class="PrixPopular"><p>Nuit à partir de 71<b>€</b></p></div>
-                <span class="starPopular">
-                    <div>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star fa-xs stargrey colorGray"></i>      
-                    </div>
-                </span>
-            </div>
-            <div class="hotelPopular">
-                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"class="imgPopular"/>
-                <div class="sousTitlePopular"><h4>Hôtel Tout bleu et Blanc</h4></div>
-                <div class="PrixPopular"><p>Nuit à partir de 68<b>€</b></p></div>
-                <span class="starPopular">
-                    <div>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star colorBlue"></i>
-                        <i class="fas fa-star fa-xs stargrey colorGray"></i>      
-                    </div>
-                </span>     
+                <div class="cubePopularDetails">
+                    <p class="sousTitlePopular">
+                        <strong>Au coeur de l'eau <br/> Chambres d'hôtes</strong> 
+                    </p>
+                    <p class="PrixPopular">Nuit à partir de 71 <strong>€</strong></p>
+                    <span class="starPopular">
+                        <div>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star fa-xs stargrey colorGray"></i>     
+                        </div>
+                    </span>
+                </div>
+            </div>    
+            <div class="flexCentre hotelPopular">
+                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="imgPopular3"/>
+                <div class="cubePopularDetails">
+                    <p class="sousTitlePopular">
+                        <strong>Hôtel Tout bleu et<br/>Blanc</strong> 
+                    </p>
+                    <p class="PrixPopular">Nuit à partir de 68 <strong>€</strong></p>
+                    <span class="starPopular">
+                        <div>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star colorBlue"></i>
+                            <i class="fas fa-star fa-xs stargrey colorGray"></i>     
+                        </div>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -251,7 +276,7 @@
     
             <div class="cubeActivities2356 flexCentreSpace">
                 <div class="imgActivities3"></div>
-                <div class="heightTitle TitleActitivities"><h4>Iles de Frioules</h4></div>
+                <div class="heightTitle TitleActitivities"><h4>Îles de Frioul</h4></div>
              </div>    
         </div>
         <div class="cubeActivities flexCentreSpace">
@@ -261,7 +286,7 @@
         <div class="BlocActivities2356 flexBetweenSpace">
             <div class="cubeActivities2356 flexCentreSpace">
                 <div class="imgActivities5"></div>
-                <div class="heightTitle TitleActitivities"><h4>Notre-Dame-de-la-garde</h4></div>
+                <div class="heightTitle TitleActitivities"><h4>Notre-Dame-de-la-Garde</h4></div>
             </div>    
     
             <div class="cubeActivities2356 flexCentreSpace">
@@ -273,29 +298,29 @@
 
 </section>
 <footer>
-    <div class="footercontent flexAround">
-        <div>
+    <div class="blockFooter">
+        <div class="blockAboutFooter">
             <h3> A propos</h3>
-            <ul>
-                <li><a href=#>Fontionnement du site</a></li>
-                <li><a href=#></a>Conditions générales de vente</li>
-                <li><a href=#>Données et confidentialité</a></li>
+            <ul class="listFooter">
+                <li class="spaceBetweenLink"><a class="linkFooter" href=#>Fontionnement du site</a></li>
+                <li class="spaceBetweenLink"><a class="linkFooter" href=#>Conditions générales de vente</a></li>
+                <li><a class="linkFooter" href=#>Données et confidentialité</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="blockLodgingFooter"> 
             <h3>Nos hébergements</h3>
-            <ul>
-                <li><a href=#>Charte qualité</a></li>
-                <li><a href=#>Soumettre votre hôtel</a></li>
+            <ul class="listFooter">
+                <li class="spaceBetweenLink"><a class="linkFooter" href=# >Charte qualité</a></li>
+                <li><a class="linkFooter" href=#>Soumettre votre hôtel</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="blockAssistanceFooter">
             <h3>Assistance</h3>
-            <ul>
-                <li><a href=#>Centre d'aide</a></li>
-                <li><a href=#>Nous contacter</a></li>
+            <ul class="listFooter">
+                <li class="spaceBetweenLink"><a class="linkFooter" href=#>Centre d'aide</a></li>
+                <li><a class="linkFooter" href=#>Nous contacter</a></li>
             </ul>
         </div>
 
