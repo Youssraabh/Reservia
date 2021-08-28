@@ -88,7 +88,7 @@ header p {
 }
 
 .bordureNav23 {
-    border-top: 1px solid transparent;
+    border-top: none; /* a retireer */
 }
 
 .marglogo {
@@ -96,7 +96,16 @@ header p {
     margin-left: -9px;
 }
 
-.sizeLien {
+.sizeLien1 {
+    width: 130px;
+    height: 90px;
+}
+
+.sizeLien2 {
+    width: 130px;
+    height: 90px;
+}
+.sizeLien3 {
     width: 130px;
     height: 90px;
 }
@@ -155,7 +164,9 @@ header p {
     margin: 0 -50px;
 }
 
-
+.bordureSearch .buttonSearch .fa-search {
+    display: none;
+}
 /* Filtres*/
 
 .titleFilter {
@@ -292,7 +303,6 @@ header p {
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
-
 }
 
 .imgLodging6 {
@@ -638,12 +648,211 @@ footer {
         margin-right: -20px;
         margin-top: 50px;
         margin-left: -20px;
-        background: none ;
     }
     
     .imgPopular3 {
         height: 190px;
     }
 
+    .StarLodging {
+        margin-top: 2px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    html,body {
+        
+        margin-right: 0;
+    }
+
+    header {
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .sizeNav {
+        height: 150px;
+    }
+
+    .sizeLienMob {
+        order: 1;
+        position:relative;
+        border-top:none; 
+        bottom: -60px;
+        left: -150px;
+        display: flex;
+        flex-basis: 100%; 
+        font-size: 18px;
+        padding: 0 50px;
+        border-bottom: 3px solid #d9d9d9;
+    }
+
+    .sizeLien1 {
+        height: 50px;   
+        width: 50%;
+        border-bottom: 3px solid #0065fc; 
+    }
+
+    .sizeLien2 {
+        height: 50px;
+        width: 50%;
+    }
+    .sizeLien3 {
+        flex-direction: row;   
+        margin-left: 0; 
+        position: absolute;
+        width: 100%;
+    }
+
+    .Title1mobile {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .iconMap {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .buttonSearch {
+        width: 50px;
+        border-radius: 15px;
+    }
+    .buttonSearch span {
+        display: none;
+    }
+    .bordureSearch .buttonSearch .fa-search {
+        visibility: visible;
+        display: block;
+    }
+
+    .recherche {
+        width: 280px;
+        border-right: transparent;
+        font-size: 19px;
+    }
+
+    .filter {
+        margin-bottom: 0;
+    }
+
+    .filter .filterFamilialMobile {
+        position: absolute;
+    }
+
+    .filterFamilialMobile {
+        margin-left:200px;
+        margin-top: 70px;;
+    } 
+
+    .InfoIcon {
+        height: auto;
+        border: 1px solid #d9d9d9;
+        margin-bottom:  25px;
+    }
+
+    .blockPopular {
+        width: initial;
+        margin-left: -20px;
+        padding: 20px 10px 20px 15px;
+    }
+
+    .sizePopular {
+        border-radius: 0;
+    }
+
+    .spaceTitle {
+        margin-right: 7px;
+    }
+
+    .hotelPopular {
+        width: 98%;
+        height: auto;
+        padding: 1.5% 0 1.5% 1.5%;
+        margin: 0 13px 20px 0;
+    }
+    .imgPopular3 {
+        height: 170px;
+    }
+
+    .imgPopular {
+        height: 170px;
+    }
+    
+    .PrixPopular {
+        margin-bottom: 32px;
+    }
+    .cubePopularDetails {
+        padding-left: 5%;
+    }
+
+    .blockLodging {
+        margin-top: 20px;
+        height: auto;
+        background: none;
+    }
+    .block1Mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .block2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .cubeLodging {
+        width: 100%;
+        height: 180px;
+        margin-left: -10px;
+        margin-bottom: 10px;
+    }
+
+    .cubeLodgingDetails {
+        min-height: auto;
+    }
+
+    .sousTitle {
+        padding-top: 0;
+    }
+
+    .afficherPlus {
+        margin-left: -15px;
+    }
+
+    .BlocActivities{
+        flex-direction: column;
+        margin-left:-10px;
+    }
+
+    .cubeActivities {
+        height: 250px;
+        width: 100%;
+        margin: 12px 0;
+    }
+    .cubeActivities2356 {
+        margin: 12px 0;
+    }
+    .BlocActivities2356 {
+        height: auto;
+        width: 100%;
+    }
+    
+    .blockFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blockLodgingFooter {
+        margin-left: 40px;
+    }
+
+    .blockAssistanceFooter {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+}
+
 
