@@ -1,5 +1,6 @@
 html,body {
     font-family:Raleway;
+    width: auto;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -108,6 +109,7 @@ header p {
 .sizeLien3 {
     width: 130px;
     height: 90px;
+
 }
 
 .sizeLiens {
@@ -561,6 +563,10 @@ footer {
 }
 /*responsive tablette */
 @media screen and (max-width:1024px) {
+    html,body {
+        padding: 0;
+    }
+
     .sizeLiens {
         margin-left: 35%;
     }
@@ -657,21 +663,32 @@ footer {
     .StarLodging {
         margin-top: 2px;
     }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     html,body {
-        
-        margin-right: 0;
+       overflow-x:hidden;
+       display: block;
+       width: auto;
+       margin: 0;
     }
 
     header {
         margin-top: 20px;
-        width: auto;
+        width: 100%;
     }
 
     .sizeNav {
         height: 150px;
+    }
+
+    .marglogo {
+        margin-left: 0;
+    }
+
+    .sizeLiens {
+        margin-left: 80%;
     }
 
     .sizeLienMob {
@@ -679,7 +696,7 @@ footer {
         position:relative;
         border-top:none; 
         bottom: -60px;
-        left: -150px;
+        left: -360px;
         display: flex;
         flex-basis: 100%; 
         font-size: 18px;
@@ -689,7 +706,7 @@ footer {
 
     .sizeLien1 {
         height: 50px;   
-        width: 50%;
+        width: 70%;
         border-bottom: 3px solid #0065fc; 
     }
 
@@ -699,22 +716,36 @@ footer {
     }
     .sizeLien3 {
         flex-direction: row;   
-        margin-left: 0; 
+        margin-left: 30px; 
         position: absolute;
         width: 100%;
+        display: contents;
     }
+
 
     .Title1mobile {
         font-size: 25px;
         margin-top: 0;
         margin-bottom: 10px;
+        margin-left: 10px;
 
+    }
+
+    header p {
+        margin-left: 10px;
     }
 
     .iconMap {
         border-radius: 15px 0 0 15px;
     }
 
+    .TextInfo {
+        padding-left:5px;
+    }
+
+    .bordureSearch {
+        margin-left: 10px;
+    }
     .buttonSearch {
         width: 50px;
         border-radius: 15px;
@@ -735,6 +766,7 @@ footer {
 
     .filter {
         margin-bottom: 0;
+        margin-left: 10px;
     }
 
     .filter .filterFamilialMobile {
@@ -746,16 +778,35 @@ footer {
         margin-top: 70px;;
     } 
 
+    .TextFilter {
+        padding-left: 8px;
+    }
+
+    .info {
+        margin-left: 10px;
+
+    }
     .InfoIcon {
         height: auto;
         border: 1px solid #d9d9d9;
         margin-bottom:  25px;
     }
+    .TitleTab {
+        margin-left: 10px;
+    }
+
+    #hebergements {
+        padding-left: 8px;
+        width: 100%;
+    }
+    .TitleActivitiesMobile {
+        margin-left: 15px;
+    }
 
     .blockPopular {
-        width: initial;
+        width: 100%;
         margin-left: -20px;
-        padding: 20px 10px 20px 15px;
+        padding: 20px 9px 20px 1px;
     }
 
     .sizePopular {
@@ -767,10 +818,10 @@ footer {
     }
 
     .hotelPopular {
-        width: 98%;
+        width: initial;
         height: auto;
         padding: 1.5% 0 1.5% 1.5%;
-        margin: 0 13px 20px 0;
+        margin: 0 0 15px 8px;
     }
     .imgPopular3 {
         height: 170px;
@@ -807,7 +858,7 @@ footer {
         width: 100%;
         height: 180px;
         margin-left: -10px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .cubeLodgingDetails {
@@ -820,16 +871,17 @@ footer {
 
     .afficherPlus {
         margin-left: -15px;
+        margin-top: 25px;
     }
 
     .BlocActivities{
         flex-direction: column;
-        margin-left:-10px;
+        
     }
 
     .cubeActivities {
         height: 250px;
-        width: 100%;
+        width: 90%;
         margin: 12px 0;
     }
     .cubeActivities2356 {
@@ -837,9 +889,12 @@ footer {
     }
     .BlocActivities2356 {
         height: auto;
-        width: 100%;
+        width: 90%;
     }
-    
+    footer {
+        background-color: #f2f2f2;
+        margin:  0px ;
+    }
     .blockFooter {
         display: flex;
         flex-direction: column;
@@ -853,6 +908,8 @@ footer {
         margin-left: 40px;
         margin-right: 0;
     }
+
+
 }
 
 
