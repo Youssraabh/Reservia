@@ -41,7 +41,7 @@ html,body {
 }
 .flexAroundSpace {
     display: flex;
-    flex-direction: column; /*Regarde si tu pourrais pas t'en passer*/
+    flex-direction: column; 
     justify-content: space-around;
     align-items: center;
 }
@@ -86,10 +86,6 @@ header p {
 
 .bordureNav {
     border-top: 1px solid #0065fc;
-}
-
-.bordureNav23 {
-    border-top: none; /* a retireer */
 }
 
 .marglogo {
