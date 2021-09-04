@@ -758,6 +758,7 @@ footer {
         width: 280px;
         border-right: transparent;
         font-size: 19px;
+        border-radius: 0px;
     }
 
     .filter {
@@ -821,6 +822,7 @@ footer {
     }
     .imgPopular3 {
         height: 170px;
+        width: 182px;
     }
 
     .imgPopular {
